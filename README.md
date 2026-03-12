@@ -77,6 +77,14 @@ Método que reutiliza a lógica de `pagarPassagem()` para validar a entrada no t
 
 ---
 
+## Encapsulamento
+
+Os atributos da classe são definidos como `private`, garantindo que o estado interno do objeto não possa ser alterado diretamente por outras classes.
+
+O acesso às informações é feito por meio de métodos `get`, enquanto a modificação dos atributos é controlada internamente pela própria classe, garantindo maior segurança e consistência dos dados.
+
+---
+
 ## Regras de Negócio
 
 O sistema respeita a seguinte ordem de validação:
@@ -116,6 +124,14 @@ Verificar se está vencido:
 ```java
 bilhete.estaVencido();
 ```
+
+---
+
+## Tecnologias utilizadas
+
+- Java
+- Programação Orientada a Objetos (POO)
+- Eclipse IDE
 
 ---
 
